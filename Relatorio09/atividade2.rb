@@ -60,5 +60,5 @@ regente.reger("Concerto em Dó Maior")
 puts "\nEscalação da Orquestra:"
 regente.escalacao.each { |texto| puts texto }
 
-instrumentista_generico = Instrumentista.new("Eve", "Flauta")
-# instrumentista_generico.interpretar("Concerto em Fá Maior") # Isso gera um erro pois o método interpretar não foi implementado na classe base.
+instrumentista_generico = Instrumentista.new("Marta", "Flauta")
+# instrumentista_generico.interpretar("Concerto em Fá Maior") Isso gera um erro pois o método interpretar não foi implementado na classe base.
